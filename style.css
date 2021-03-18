@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Gorditas:wght@700&family=Syne+Mono&family=Turret+Road:wght@800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /*font-family: 'Turret Road', cursive;*/
+
+  font-family: "Syne Mono", monospace;
+}
+@media only screen and (max-width: 600px) {
+  #content {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+body {
+  background: url("snow1.jpg");
+}
+
+/*heading*/
+.heading {
+  text-align: center;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px skyblue, -7px -7px 6px black, -6px -6px 6px white;
+  color: white;
+}
+
+/*heading*/
+/* content */
+.content {
+  width: 100%;
+  /* max-width: 500px; */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  width: 90%;
+  /* max-width: 500px; */
+  display: flex;
+  font-size: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_alingment div {
+  font-weight: bolder;
+  color: black;
+  text-shadow: 2px 2px 4px skyblue, -5px -5px 6px white, -7px 7px 10px black;
+}
+
+.content_alingment span {
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: -2px -2px 2px white;
+}
+
+/*content*/
